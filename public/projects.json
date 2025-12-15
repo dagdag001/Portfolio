@@ -1,0 +1,67 @@
+[
+  {
+    "title": "MovieFeast",
+    "description": "A full-stack movie streaming web application built with React frontend and Express.js backend, real-time movie playback. :contentReference[oaicite:5]{index=5}",
+    "image": "/project-images/moviefeast.png",
+    "tags": ["JavaScript", "React", "Express.js", "Web App"],
+    "link": "https://moviefeast.onrender.com",
+    "year": 2025
+  },
+  {
+    "title": "anime-recommendation",
+    "description": "An anime recommendation web app built with EJS. :contentReference[oaicite:9]{index=9}",
+    "image": "/project-images/anime-recommendations.png",
+    "tags": ["EJS", "Web App", "JavaScript"],
+    "link": "https://anime-recommendation-1-c9pz.onrender.com",
+    "year": 2025
+  },
+  {
+    "title": "NoteSticky",
+    "description": "A Chrome extension that lets you create, edit, and manage sticky notes on any webpage. :contentReference[oaicite:3]{index=3}",
+    "image": "/project-images/sticky-note.png",
+    "tags": ["JavaScript", "Chrome Extension", "Productivity"],
+    "link": "https://github.com/dagdag001/NoteSticky",
+    "year": 2025
+  },
+  {
+    "title": "pushup",
+    "description": "A simple web page in HTML (likely push-up / exercise themed) by the author. :contentReference[oaicite:2]{index=2}",
+    "image": "public/project-images/pushup.png",
+    "tags": ["HTML"],
+    "link": "https://pushup-rho.vercel.app/",
+    "year": 2025
+  },
+  {
+    "title": "movie_rating",
+    "description": "Web application built using EJS (likely for rating movies) by the author. :contentReference[oaicite:7]{index=7}",
+    "image": "",
+    "tags": ["EJS", "Web App", "JavaScript"],
+    "link": "https://github.com/dagdag001/movie_rating",
+    "year": 2025
+  },
+  {
+    "title": "MNISTModel",
+    "description": "A convolutional neural network (CNN) built with PyTorch for handwritten digit classification using the MNIST dataset. :contentReference[oaicite:4]{index=4}",
+    "image": "",
+    "tags": ["Python", "PyTorch", "Machine Learning"],
+    "link": "https://github.com/dagdag001/MNISTModel",
+    "year": 2025
+  },
+
+  {
+    "title": "leet-code",
+    "description": "Repository for solving LeetCode problems, managed by LeetPush extension. :contentReference[oaicite:6]{index=6}",
+    "image": "",
+    "tags": ["Python", "Algorithms", "Competitive Programming"],
+    "link": "https://github.com/dagdag001/leet-code",
+    "year": 2025
+  },
+  {
+    "title": "book-review",
+    "description": "Web application in EJS for reviewing books. :contentReference[oaicite:8]{index=8}",
+    "image": "",
+    "tags": ["EJS", "Web App", "JavaScript"],
+    "link": "https://github.com/dagdag001/book-review",
+    "year": 2025
+  }
+]

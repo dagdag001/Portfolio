@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* When screen width is larger than 42rem (~672px) */
+@media (min-width: 42rem) {
+  #root {
+    max-width: 42rem;
+  }
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  @font-face {
+    font-family: __GeistSans_3a0388;
+    src: url(../media/e11418ac562b8ac1-s.p.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 100 900;
+  }
+  @font-face {
+    font-family: __GeistSans_Fallback_3a0388;
+    src: local("Arial");
+    ascent-override: 85.83%;
+    descent-override: 20.52%;
+    line-gap-override: 9.33%;
+    size-adjust: 107.19%;
+  }
+  .__className_3a0388 {
+    font-family: __GeistSans_3a0388, __GeistSans_Fallback_3a0388;
+  }
+  .__variable_3a0388 {
+    --font-geist-sans: "__GeistSans_3a0388", "__GeistSans_Fallback_3a0388";
+  }
+}
