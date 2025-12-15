@@ -26,7 +26,7 @@
   {
     "title": "pushup",
     "description": "A simple web page in HTML (likely push-up / exercise themed) by the author. :contentReference[oaicite:2]{index=2}",
-    "image": "public/project-images/pushup.png",
+    "image": "/project-images/pushup.png",
     "tags": ["HTML"],
     "link": "https://pushup-rho.vercel.app/",
     "year": 2025
