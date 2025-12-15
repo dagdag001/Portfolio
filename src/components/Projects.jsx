@@ -21,7 +21,7 @@ const Projects = () => {
   const yearClickTimer = useRef(null);
 
   useEffect(() => {
-    fetch("public/projects.json")
+    fetch("/projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data));
   }, []);
