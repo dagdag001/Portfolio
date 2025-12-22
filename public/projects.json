@@ -15,6 +15,14 @@
     "link": "https://anime-recommendation-1-c9pz.onrender.com",
     "year": 2025
   },
+    {
+    "title": "Menu",
+    "description": "A beautiful, responsive 3-page digital restaurant menu application built with React and Tailwind CSS. Features animated hero sections, complete menu management, admin panel, payment integration, and real-time sync capabilities for modern dining experiences.",
+    "image": "/project-images/menu.jpg",
+    "tags": ["JavaScript", "React", "Google sheet API", "Tailwind CSS"],
+    "link": "https://restaurant-menu-app-lime.vercel.app",
+    "year": 2025
+  },
   {
     "title": "NoteSticky",
     "description": "A Chrome extension that lets you create, edit, and manage sticky notes on any webpage. :contentReference[oaicite:3]{index=3}",
