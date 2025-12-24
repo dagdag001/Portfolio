@@ -5,44 +5,49 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
+import Snowfall from "react-snowfall";
 
 function App() {
   const [theme, setTheme] = useState(() => {
     try {
-      const stored = localStorage.getItem('theme');
+      const stored = localStorage.getItem("theme");
       if (stored) return stored;
     } catch (error) {
-      console.error('Failed to access localStorage:', error);
+      console.error("Failed to access localStorage:", error);
     }
 
     // Default to dark mode
-    return 'dark';
+    return "dark";
   });
 
   // Apply theme to document and persist to localStorage
   useEffect(() => {
     try {
-      if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
+      if (theme === "dark") {
+        document.documentElement.classList.add("dark");
       } else {
-        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.remove("dark");
       }
-      
-      localStorage.setItem('theme', theme);
+
+      localStorage.setItem("theme", theme);
     } catch (error) {
-      console.error('Failed to apply or persist theme:', error);
+      console.error("Failed to apply or persist theme:", error);
     }
   }, [theme]);
 
   // Toggle theme function
   const toggleTheme = () => {
-    setTheme(prev => prev === 'light' ? 'dark' : 'light');
+    setTheme((prev) => (prev === "light" ? "dark" : "light"));
   };
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Snowfall snowflakeCount={50} />
       <Header theme={theme} toggleTheme={toggleTheme} />
-      <main className="flex-grow px-4 sm:px-6 lg:px-8" style={{ marginTop: "1rem" }}>
+      <main
+        className="flex-grow px-4 sm:px-6 lg:px-8"
+        style={{ marginTop: "1rem" }}
+      >
         <Profile />
         <div style={{}}>
           <Projects />

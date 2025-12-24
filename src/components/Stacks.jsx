@@ -29,8 +29,8 @@ const techs = [
 const Stacks = () => {
   return (
     <div>
-      <h2 className="mb-4 text-xs font-normal uppercase tracking-wider text-gray-400 dark:text-gray-400">
-        Technologies
+      <h2 className="pt-3 mt-3 text-xs font-normal uppercase tracking-wider text-gray-400 dark:text-gray-400">
+        Stacks
       </h2>
 
       <div className="grid grid-cols-4 gap-1 sm:grid-cols-6 md:grid-cols-7">
@@ -46,7 +46,9 @@ const Stacks = () => {
                 alt={tech.name}
                 className="group-hover:-translate-y-1 size-8 transition-all duration-300"
               />
-              <div className="mt-2 text-xs text-muted-foreground">{tech.name}</div>
+              <div className="mt-2 text-xs text-muted-foreground">
+                {tech.name}
+              </div>
             </div>
           </div>
         ))}
