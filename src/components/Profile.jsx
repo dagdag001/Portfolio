@@ -33,8 +33,9 @@ const Profile = () => {
           </div>
         </div>
         <p className="text-xs font-normal mb-2 sm:mb-3 text-gray-400 dark:text-gray-400">
-          React based application development with a strong backend focus, emphasizing 
-          security, performance, and building reliable, user focused digital solutions.
+          React based application development with a strong backend focus,
+          emphasizing security, performance, and building reliable, user focused
+          digital solutions.
         </p>
       </div>
     </div>

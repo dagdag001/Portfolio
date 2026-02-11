@@ -1,5 +1,13 @@
 [
   {
+    "title": "AAU Job Application Tracker",
+    "description": "A full-stack recruitment and job application management system built for Addis Ababa University.",
+    "image": "/project-images/aau-job-tracker.jpg",
+    "tags": ["React", "Node.js", "Express.js", "Full Stack", "System Design"],
+    "link": "https://job-application-tracker-system-1.onrender.com",
+    "year": 2025
+  },
+  {
     "title": "MovieFeast",
     "description": "A full-stack movie streaming web application built with React frontend and Express.js backend, real-time movie playback. :contentReference[oaicite:5]{index=5}",
     "image": "/project-images/moviefeast.png",
@@ -15,7 +23,7 @@
     "link": "https://anime-recommendation-1-c9pz.onrender.com",
     "year": 2025
   },
-    {
+  {
     "title": "Menu",
     "description": "A beautiful, responsive 3-page digital restaurant menu application built with React and Tailwind CSS. Features animated hero sections, complete menu management, admin panel, payment integration, and real-time sync capabilities for modern dining experiences.",
     "image": "/project-images/menu.jpg",

@@ -1,10 +1,13 @@
-import { useState, useRef } from 'react';
-import ContactDropdown from './ContactDropdown';
+import { useState, useRef } from "react";
+import ContactDropdown from "./ContactDropdown";
+import CVLink from "./CVLink";
 
 const Header = ({ theme, toggleTheme }) => {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
   const contactBadgeRef = useRef(null);
+  const cvUrl =
+    "https://drive.google.com/file/d/1g8EsfOkdeOpyjLWyEpoBwsZCWv6Jbe-s/view?usp=sharing";
 
   const toggleContactDropdown = () => {
     setIsContactOpen(!isContactOpen);
@@ -59,12 +62,12 @@ const Header = ({ theme, toggleTheme }) => {
               ref={contactBadgeRef}
               // style={{ opacity: 0, transform: "translateY(-20px)" }}
             >
-              <div 
-                className="flex items-center" 
+              <div
+                className="flex items-center"
                 tabIndex="0"
                 onClick={toggleContactDropdown}
                 onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
+                  if (e.key === "Enter" || e.key === " ") {
                     e.preventDefault();
                     toggleContactDropdown();
                   }
@@ -84,7 +87,7 @@ const Header = ({ theme, toggleTheme }) => {
                   Contact Me
                 </p>
               </div>
-              <ContactDropdown 
+              <ContactDropdown
                 isOpen={isContactOpen}
                 onClose={() => setIsContactOpen(false)}
                 position="right"
@@ -110,14 +113,14 @@ const Header = ({ theme, toggleTheme }) => {
             onClick={toggleTheme}
             className="p-2 text-gray-400 hover:text-zinc-400 dark:text-gray-400 dark:hover:text-zinc-400 transition-colors duration-300 ease-in-out focus:outline-none"
             aria-label="Toggle dark mode"
-            style={{ 
-              border: 'none', 
-              background: 'transparent',
-              outline: 'none',
-              boxShadow: 'none'
+            style={{
+              border: "none",
+              background: "transparent",
+              outline: "none",
+              boxShadow: "none",
             }}
           >
-            {theme === 'light' ? (
+            {theme === "light" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -206,12 +209,15 @@ const Header = ({ theme, toggleTheme }) => {
             Hi, I am Dagim Wubeante,
           </h1>
           <p className="font-normal text-gray-400 dark:text-zinc-300 text-sm md:text-sm">
-            a web developer with strong skills in both frontend and backend, building functional, well structured applications with 
-            clean UI and smooth user experiences, and a strong attention to detail.
+            a web developer with strong skills in both frontend and backend,
+            building functional, well structured applications with clean UI and
+            smooth user experiences, and a strong attention to detail.
           </p>
-          <span className="relative mt-2 text-xs md:text-sm font-normal inline-flex items-center text-gray-400 dark:text-zinc-200">
-            Adiss Ababa, Ethiopia
-          </span>
+          <div className="relative mt-2 text-xs md:text-sm font-normal flex items-center justify-between text-gray-400 dark:text-zinc-200 w-full">
+            <span>Adiss Ababa, Ethiopia</span>
+
+            <CVLink cvUrl={cvUrl} />
+          </div>
         </div>
       </div>
     </div>
