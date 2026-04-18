@@ -1,0 +1,12 @@
+/* TEAM */
+Developer: Dagim Wubeante
+Site: https://dagimwubeante.vercel.app/
+Location: Addis Ababa, Ethiopia
+GitHub: https://github.com/dagdag001
+LinkedIn: https://linkedin.com/in/dagimwubeante
+
+/* SITE */
+Last update: 2025/01/01
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: React, Node.js, Express.js, Tailwind CSS
+Software: VS Code, Git, Vite

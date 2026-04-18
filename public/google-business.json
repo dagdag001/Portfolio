@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Dagim Wubeante - Full Stack Developer",
+  "description": "Professional Full Stack Developer specializing in React, Node.js, and Express.js",
+  "url": "https://dagimwubeante.vercel.app/",
+  "telephone": "+251-XXX-XXX-XXX",
+  "email": "dagim@example.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Addis Ababa University",
+    "addressLocality": "Addis Ababa",
+    "addressRegion": "Addis Ababa",
+    "postalCode": "1000",
+    "addressCountry": "ET"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "9.03",
+    "longitude": "38.74"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://github.com/dagdag001",
+    "https://linkedin.com/in/dagimwubeante"
+  ],
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Ethiopia"
+  }
+}

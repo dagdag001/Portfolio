@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
+import SEO from "./components/SEO";
 import Snowfall from "react-snowfall";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <SEO />
       <Snowfall snowflakeCount={50} />
       <Header theme={theme} toggleTheme={toggleTheme} />
       <main

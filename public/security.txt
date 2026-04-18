@@ -1,0 +1,3 @@
+Contact: https://github.com/dagdag001
+Preferred-Languages: en, am
+Canonical: https://dagimwubeante.vercel.app/.well-known/security.txt
